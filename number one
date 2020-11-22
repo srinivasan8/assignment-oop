@@ -1,0 +1,35 @@
+class employee
+
+
+     num_of_emps=0
+     raise_amt=1.04
+     
+     def__int__(self,first,last,pay):
+        self.first=first
+        self.last=last
+        self.email=first+'_'+last+ '@gmail.com'
+        self.pay=[ay
+        Employee_num_of_emps +=1
+        
+     def fullname(self):
+         return'{} {}'.format(self.first, self.last)
+     
+     def apply_raise(self):
+         self.pay= int(self.pay+self.raise_ant)
+
+@classmethod
+def set_raise_amt(cls,amount):
+    cls.raise_amt=amount
+    
+@classmethod
+def from_string(cls,emp_str)
+first,last,pay= emp_str.split('_')
+return cls(first,last,pay)
+         
+         
+emp_1=Employee('Herald,'Crusader,50000)
+emp_2=Employee('Test', 'Employee',60000)
+
+print(employee.raise_amt)
+print(emp_1.raise_amt)
+print(emp_2.raise_amt)
