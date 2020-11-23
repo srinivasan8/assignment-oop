@@ -13,8 +13,8 @@ self.color=color
 +getradius(7):double
 +getradius(radius:14):void
 +getcolor(black):string
-+tostring(180,14,black):string
-+getarea(28pi):double
++tostring():string
++getarea():double
 
 
     
@@ -22,6 +22,14 @@ self.color=color
   def __init__(self,radius,height):
     self.radius = radius
     self.height = height
+ +cylinder(30)
+ +cylinder(height:60)
+ +cylinder(height:60,radius:2)
+ +cylinder(height:60,radius:2,color:black)et 
+ +getheight(30):double
+ +getheight(height:double):void
+ +tostring():string
+ +getvolume(double):double
   def __str__(self):
     return "Radius: "+ str(self.radius) + ", Height: " + str(self.height)
  
@@ -32,16 +40,7 @@ self.color=color
   def getVolume(self):
       return self.radius*self.radius*3.14*self.height
  
-#Creating a cylinder object from the Cylinder class
-cd=Cylinder(1,30)
- +cylinder(30)
- +cylinder(height:60)
- +cylinder(height:60,radius:2)
- +cylinder(height:60,radius:2,color:black)et 
- +getheight(30):double
- +getheight(height:double):void
- +tostring():string
- +getvolume(double):double
+
 print "A Cylinder with"
 print "Radius: "+str(cd.getRadius())
 print "Height: "+ str(cd.getHeight())
