@@ -2,7 +2,13 @@ class person
    def__int___(self,name,address)
    self.name=name
    self.address=address
-   
+   +person(name:str, address:str)
+ +getName(SHRAVAN)::str
+ +getAddress(Pasadenia):String
+ +getAddress(Address:string):void
+ +tosTRING(SHRAVAN(Sanur)
+   return "name:(address)
+ 
    def personal_details():
     name = "Shravan"Polumas, Jakarta"
     print("Name: {}\nAddress: {}".format(name, address))
@@ -10,9 +16,39 @@ class person
 personal_details()
    
   
- def__str____(self,name,address)
- +person(name:str, address:str)
- +getName(SHRAVAN)::str
- +getAddress(Pasadenia):String
- +getAddress(Address:string):void
- +tosTRING(SHRAVAN(Sanur)
+
+ 
+
+class Student:
+    def __init__(self, name, school, iq):
+        # Attributes of your typical student
+        self.name = name
+        self.school = school
+        self.classes_taken = []
+        self.iq = iq
+        +student(name:string,address:string)
+        +tostring():string
+        +addcoursegrade(course:string,grade:int):void
+        +printgrades()void
+        +getaverageGrade():double
+        +tostring():string*
+          return student:name(address)"
+
+    
+   
+            
+            class teacher:
+            numcourses:int=0
+            -courses:string[]={}
+            
+            
+            +teacher(name:string,address,string)
+            +tostring():string
+            +addCourse(course:string):boolean
+            if boolean exist
+             return false
+            +removecourse(course:string)boolean
+            if course not exist
+            return false
+            +tostring()string
+            return teacher:name(address)"
