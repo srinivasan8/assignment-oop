@@ -1,0 +1,18 @@
+class person
+   def__int___(self,name,address)
+   self.name=name
+   self.address=address
+   
+   def personal_details():
+    name = "Shravan"Polumas, Jakarta"
+    print("Name: {}\nAddress: {}".format(name, address))
+
+personal_details()
+   
+  
+ def__str____(self,name,address)
+ +person(name:str, address:str)
+ +getName(SHRAVAN)::str
+ +getAddress(Pasadenia):String
+ +getAddress(Address:string):void
+ +tosTRING(SHRAVAN(Sanur)
