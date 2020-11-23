@@ -1,105 +1,24 @@
 class Circle:
     """Represents a circle.
 
-    Attributes: center, radius
+    Attributes: , radius
     """
+def__int___(self,radius,color).
+self.radius=radius
+self.color=color
+
++circle(90)
++circle(radius:180)
++circle(radius:180,color:str
++getradius(7):double
++getradius(radius:14):void
++getcolor(black):string
++tostring(180,14,black):string
++getarea(28pi):double
 
 
-def point_in_circle(point, circle):
-    """Checks whether a point lies inside a circle (or on the boundary).
-
-    point: Point object
-    circle: Circle object
-    """
-    d = distance_between_points(point, circle.center)
-    print(d)
-    return d <= circle.radius
-
-
-def rect_in_circle(rect, circle):
-    """Checks whether the corners of a rect fall in/on a circle.
-
-    rect: Rectangle object
-    circle: Circle object
-    """
-    p = copy.copy(rect.corner)
-    print_point(p)
-    if not point_in_circle(p, circle):
-        return False
-
-    p.x += rect.width
-    print_point(p)
-    if not point_in_circle(p, circle):
-        return False
-
-    p.y -= rect.height
-    print_point(p)
-    if not point_in_circle(p, circle):
-        return False
-
-    p.x -= rect.width
-    print_point(p)
-    if not point_in_circle(p, circle):
-        return False
-
-    return True
-
-
-def rect_circle_overlap(rect, circle):
-    """Checks whether any corners of a rect fall in/on a circle.
-
-    rect: Rectangle object
-    circle: Circle object
-    """
-    p = copy.copy(rect.corner)
-    print_point(p)
-    if point_in_circle(p, circle):
-        return True
-
-    p.x += rect.width
-    print_point(p)
-    if point_in_circle(p, circle):
-        return True
-
-    p.y -= rect.height
-    print_point(p)
-    if point_in_circle(p, circle):
-        return True
-
-    p.x -= rect.width
-    print_point(p)
-    if point_in_circle(p, circle):
-        return True
-
-    return False
-
-
-def main():
-    box = Rectangle()
-    box.width = 100.0
-    box.height = 200.0
-    box.corner = Point()
-    box.corner.x = 50.0
-    box.corner.y = 50.0
-
-    print(box.corner.x)
-    print(box.corner.y)
-
-    circle = Circle
-    circle.center = Point()
-    circle.center.x = 150.0
-    circle.center.y = 100.0
-    circle.radius = 75.0
-
-    print(circle.center.x)
-    print(circle.center.y)
-    print(circle.radius)
-
-    print(point_in_circle(box.corner, circle))
-    print(rect_in_circle(box, circle))
-    print(rect_circle_overlap(box, circle))
     
-    class Cylinder:
+  class Cylinder:
   def __init__(self,radius,height):
     self.radius = radius
     self.height = height
@@ -114,8 +33,15 @@ def main():
       return self.radius*self.radius*3.14*self.height
  
 #Creating a cylinder object from the Cylinder class
-cd=Cylinder(5,10)
- 
+cd=Cylinder(1,30)
+ +cylinder(30)
+ +cylinder(height:60)
+ +cylinder(height:60,radius:2)
+ +cylinder(height:60,radius:2,color:black)et 
+ +getheight(30):double
+ +getheight(height:double):void
+ +tostring():string
+ +getvolume(double):double
 print "A Cylinder with"
 print "Radius: "+str(cd.getRadius())
 print "Height: "+ str(cd.getHeight())
