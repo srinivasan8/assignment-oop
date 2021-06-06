@@ -2,7 +2,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
  // Create class of level2
-  //uses of custom-built classes and methods along with polymorphism, inheritance, exception handling, and java collection      
+  //uses of custom-built classes and methods along with polymorphism, inheritance, exception handling, primitive data types, and java collections 
 public class level2 extends World
 {
     
