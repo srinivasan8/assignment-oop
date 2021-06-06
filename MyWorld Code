@@ -1,6 +1,6 @@
 import greenfoot.*;  // (World, Actor, Images, Music and ScenarioInfo)//use methods of greenfoot.
 
-
+//uses of custom-built classes and methods, along with exception handling, and java collection    
 //apply decency uses of class, polymorphism, methods, and inheritance.       
 public class MyWorld extends World
 {   // use static link to set score to always be 0 which in other words is exception handling.
