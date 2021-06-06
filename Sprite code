@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 // Make the actor be able to stand on a platform.
-//uses of custom-built classes and methods along with polymorphism, inheritance, exception handling, and java collection
+//uses of custom-built classes and methods along with polymorphism, inheritance, exception handling, primitive data types, and java collections.
 public class sprite extends Actor
 {   //call a out a method using GRAVITY=1
     private final int GRAVITY= 1;
@@ -46,7 +46,7 @@ public class sprite extends Actor
         if(Greenfoot.isKeyDown("Right"))x+=3;
         setLocation(x,y);
     }
-    public boolean isOnSolidGround() {// call out a method boolean with function isOnSolidGround.
+    public boolean isOnSolidGround() {// call out a method boolean with function isOnSolidGround as well as primitive data type.
         boolean isOnGround = false;
         
         if(getY() > getWorld().getHeight() - 50)isOnGround=true;// implements exception handling
