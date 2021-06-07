@@ -1,0 +1,8 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+//The ball doesnt do much but stand in position waiting for the sprite to touch it
+public class ball extends Actor
+{
+    
+    
+}
