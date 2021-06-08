@@ -1,0 +1,12 @@
+  public void seavessel() {
+        return seavessel;
+    }
+  public void displace() {
+     displace=3
+     return displace;
+    }
+    
+    public void grabdisplace() {
+        return grabdisplace;
+    }
+  
