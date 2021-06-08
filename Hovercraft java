@@ -1,0 +1,6 @@
+  public void enterland() {
+        return enterland;
+    }
+  public void entersea(){
+         return entersea
+    }
