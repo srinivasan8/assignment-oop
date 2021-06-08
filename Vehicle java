@@ -1,0 +1,17 @@
+ public abstract class vehicle() {
+    public void setname(string){
+         setname=string;
+        return setname;
+        public void getName(string){
+        
+        return getname;
+        public void setpass(string){
+         
+        return setpass;
+        public void getpass(string){
+        
+        return getpass;
+        public void getspeed(string){
+        
+        return getspeed;
+    }
