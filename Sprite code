@@ -20,11 +20,14 @@ public class sprite extends Actor
         Actor gold= getOneIntersectingObject(ball.class);
         if(isTouching(spikey.class))
         {
-           Greenfoot.setWorld(new gameover());// if sprite touches spikey it goes to gameover.
-        
+            
+            Greenfoot.setWorld(new gameover());// if sprite touches spikey it goes to gameover.
+            Greenfoot.playSound("Gameover.wav");
         }
         if(gold != null)
         {
+            
+            Greenfoot.playSound("Cha-Ching.wav");
             getWorld().removeObject(gold);// make the gold disappear when sprite touches it.
             thisGame.score++;// add the score whenever the sprite eats up the golden ball
     }
